@@ -1,6 +1,6 @@
 import pytest
 from IPYNBRENDERER.youtube import get_time_info
-from IPYNBRENDERER.CustomerException import InvalidURLException
+from IPYNBRENDERER.custom_exception import InvalidURLException
 
 good_URL_data =[
     ("https://www.youtube.com/IATUT2qzDmU",0),
@@ -8,7 +8,7 @@ good_URL_data =[
     ("https://www.youtube.com/watch?v=IATUT2qzDmU&t=42s",42)]
 
 URL_id_bad_data =[
-    ("https://www.youtube.com/watch?v==IATUT2qzDmU",),
+    ("https://www.youtube.com/watch?v==IATUT2qzDmU"),
     ("https://www.youtube.com/watch?v=IATUT2qzDmU==22"),
     ("https://www.youtube.com/watch?v==IATUT2qzDmUy&t=42s")]
 
