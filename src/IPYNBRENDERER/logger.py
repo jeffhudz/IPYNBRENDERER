@@ -2,6 +2,7 @@ import os
 import logging
 import sys
 
+
 log_str = "[%(asctime)s:%(levelname)s:%(module)s]:%(message)s"
 
 log_dir ="./logs"
