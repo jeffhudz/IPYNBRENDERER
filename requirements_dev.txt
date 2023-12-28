@@ -4,9 +4,9 @@ ensure==1.0.2
 py-youtube==1.1.7
 
 # dev requirements
-pytest==7.4.3
+pytest
 tox
-black==23.12.1
-flake8==6.1.0
-mypy==1.8.0
+black
+flake8
+mypy
 -e .
